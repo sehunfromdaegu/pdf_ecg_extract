@@ -1,3 +1,3 @@
-Extract 'ECG Sample 4 Hospitals.zip' in this directory.
+'pdf_ecg_extract.ipynb' contains an example usage of PDF parser.
 
-'pdf_ecg_extract.ipynb' shows an example of pdf extraction.
+Note: The current version of the PDF parser expects that the 'directory' variable in 'pdf_ecg_extract.ipynb' points to a directory exclusively containing PDF files.
