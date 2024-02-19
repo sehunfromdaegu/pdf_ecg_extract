@@ -24,15 +24,15 @@ def split_newline(str):
     return list_of_str
 
 
-def filenames_in(dir):
+def filenames_in(directory):
     '''
-        returns filenames(without extension) in directory dir
+        returns filenames(without extension) in directory
     '''
-    filelist = os.listdir(dir)
+    filelist = os.listdirectory(directory)
     filenames = []
 
     for file in filelist:
-        filename = dir + file.split('.')[0]
+        filename = directory + file.split('.')[0]
         filenames.append(filename)
 
     filenames = np.asarray(filenames)
@@ -172,12 +172,12 @@ def upsampling(wave, factor=2):
     xnew = np.arange(0,len(wave),1/factor)
     return f(xnew) 
 
-def waves_and_features(dir):
+def waves_and_features(directory):
     '''
     input : directory that contains n-pdfs 
     output : list of waves, features of length n 
     '''
-    filenames = filenames_in(dir)
+    filenames = filenames_in(directory)
     waves, features = [], []
 
     # read pdf files

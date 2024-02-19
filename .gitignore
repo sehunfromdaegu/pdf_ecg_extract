@@ -26,3 +26,5 @@ ECG Sample 4 Hospitals/2. BSCH/72696/CXR.DCM
 ECG Sample 4 Hospitals/2. BSCH/133096/202401150821492492_zpu1dv2c0hn.xml
 ECG Sample 4 Hospitals/1. ISH/ECG/2024020811112567.xml
 xml_temp.py
+__pycache__/parsing.cpython-39.pyc
+__pycache__/pdf_module.cpython-39.pyc
